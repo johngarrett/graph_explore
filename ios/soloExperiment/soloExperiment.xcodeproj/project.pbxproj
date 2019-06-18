@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BABB9C22B97E3000A2F71F /* GraphQLClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BABB9B22B97E3000A2F71F /* GraphQLClient.swift */; };
 		04F38E2922B97B1600CC8FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F38E2822B97B1600CC8FCE /* AppDelegate.swift */; };
 		04F38E2B22B97B1600CC8FCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F38E2A22B97B1600CC8FCE /* SceneDelegate.swift */; };
 		04F38E2D22B97B1600CC8FCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F38E2C22B97B1600CC8FCE /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04BABB9B22B97E3000A2F71F /* GraphQLClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLClient.swift; sourceTree = "<group>"; };
 		04F38E2522B97B1600CC8FCE /* soloExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soloExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F38E2822B97B1600CC8FCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F38E2A22B97B1600CC8FCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				04F38E2822B97B1600CC8FCE /* AppDelegate.swift */,
+				04BABB9B22B97E3000A2F71F /* GraphQLClient.swift */,
 				04F38E2A22B97B1600CC8FCE /* SceneDelegate.swift */,
 				04F38E2C22B97B1600CC8FCE /* ContentView.swift */,
 				04F38E2E22B97B1600CC8FCE /* Assets.xcassets */,
@@ -233,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BABB9C22B97E3000A2F71F /* GraphQLClient.swift in Sources */,
 				04F38E2922B97B1600CC8FCE /* AppDelegate.swift in Sources */,
 				04F38E2B22B97B1600CC8FCE /* SceneDelegate.swift in Sources */,
 				04F38E2D22B97B1600CC8FCE /* ContentView.swift in Sources */,
