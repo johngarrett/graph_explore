@@ -1,5 +1,0 @@
-mutation CreatePost($description: String!, $imageUrl: String!) {
-  createPost(description: $description, imageUrl: $imageUrl) {
-    ...PostDetails
-  }
-}
