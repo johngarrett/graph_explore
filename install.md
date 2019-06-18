@@ -3,7 +3,7 @@ npm install -g apollo@1.9
 npm install -g graphcool
 
 
-#links
+# links
 
-###Graph Cool on iOS:
+### Graph Cool on iOS:
 https://www.graph.cool/docs/quickstart/frontend/ios/apollo-nohcao8loo
