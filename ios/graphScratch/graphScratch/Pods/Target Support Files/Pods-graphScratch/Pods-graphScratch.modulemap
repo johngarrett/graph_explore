@@ -1,0 +1,6 @@
+framework module Pods_graphScratch {
+  umbrella header "Pods-graphScratch-umbrella.h"
+
+  export *
+  module * { export * }
+}
