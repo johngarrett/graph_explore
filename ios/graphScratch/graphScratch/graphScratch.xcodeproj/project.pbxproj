@@ -13,6 +13,9 @@
 		044787FE22BA636900A56D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044787FC22BA636900A56D9D /* LaunchScreen.storyboard */; };
 		0447880622BA65FF00A56D9D /* GraphAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447880522BA65FF00A56D9D /* GraphAPI.swift */; };
 		044B6A5222BA6867003FCB0A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B6A5122BA6867003FCB0A /* API.swift */; };
+		044B6A5422BA7541003FCB0A /* NotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B6A5322BA7541003FCB0A /* NotesListViewController.swift */; };
+		044B6A5622BA7718003FCB0A /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B6A5522BA7718003FCB0A /* NoteCell.swift */; };
+		044B6A5822BA783A003FCB0A /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B6A5722BA783A003FCB0A /* AddNoteViewController.swift */; };
 		CDEE1251F7BEAF3E417F66F1 /* Pods_graphScratch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B3D8F6A88AD9A4C950E15D /* Pods_graphScratch.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		044787FF22BA636900A56D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0447880522BA65FF00A56D9D /* GraphAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAPI.swift; sourceTree = "<group>"; };
 		044B6A5122BA6867003FCB0A /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		044B6A5322BA7541003FCB0A /* NotesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListViewController.swift; sourceTree = "<group>"; };
+		044B6A5522BA7718003FCB0A /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		044B6A5722BA783A003FCB0A /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 		38B3D8F6A88AD9A4C950E15D /* Pods_graphScratch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_graphScratch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E743815405A8B8D7FC173E6 /* Pods-graphScratch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-graphScratch.debug.xcconfig"; path = "Target Support Files/Pods-graphScratch/Pods-graphScratch.debug.xcconfig"; sourceTree = "<group>"; };
 		6EB93B302DF144AB42AEB593 /* Pods-graphScratch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-graphScratch.release.xcconfig"; path = "Target Support Files/Pods-graphScratch/Pods-graphScratch.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +81,9 @@
 				0447880522BA65FF00A56D9D /* GraphAPI.swift */,
 				044B6A5122BA6867003FCB0A /* API.swift */,
 				044787F722BA636900A56D9D /* Main.storyboard */,
+				044B6A5722BA783A003FCB0A /* AddNoteViewController.swift */,
+				044B6A5522BA7718003FCB0A /* NoteCell.swift */,
+				044B6A5322BA7541003FCB0A /* NotesListViewController.swift */,
 				044787FA22BA636900A56D9D /* Assets.xcassets */,
 				044787FC22BA636900A56D9D /* LaunchScreen.storyboard */,
 				044787FF22BA636900A56D9D /* Info.plist */,
@@ -225,7 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044B6A5422BA7541003FCB0A /* NotesListViewController.swift in Sources */,
 				044787F422BA636900A56D9D /* AppDelegate.swift in Sources */,
+				044B6A5822BA783A003FCB0A /* AddNoteViewController.swift in Sources */,
+				044B6A5622BA7718003FCB0A /* NoteCell.swift in Sources */,
 				044B6A5222BA6867003FCB0A /* API.swift in Sources */,
 				0447880622BA65FF00A56D9D /* GraphAPI.swift in Sources */,
 			);
