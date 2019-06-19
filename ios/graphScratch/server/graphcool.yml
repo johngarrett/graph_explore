@@ -1,0 +1,25 @@
+types: ./types.graphql #defining the data scheme (it exists here)
+
+
+functions:
+  hello:
+    handler:
+      code: src/hello.js
+    type: resolver
+    schema: src/hello.graphql
+
+
+# Model/Relation permissions are used to limit the API access
+# "*" currently allows all read/write permissions
+# https://www.graph.cool/docs/reference/auth/authorization/overview-iegoo0heez
+
+permissions:
+  - operation: "*"
+
+
+# Your root tokens used for functions to get full access to the API
+# Read more here:
+# https://www.graph.cool/docs/reference/auth/authentication/authentication-tokens-eip7ahqu5o
+# rootTokens:
+#   - mytoken
+

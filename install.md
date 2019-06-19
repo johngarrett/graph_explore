@@ -3,6 +3,8 @@ npm install -g apollo@1.9
 npm install -g graphcool
 npm install -g apollo-codegen
 
+apollo-codegen download-schema SIMPLE_API_ENDPOINT --output schema.json
+
 # links
 
 ### Graph Cool on iOS:

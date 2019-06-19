@@ -1,0 +1,6 @@
+type Note @model {
+  body: String
+  title: String
+  id: ID! @isUnique
+  creationDate: DateTime
+}

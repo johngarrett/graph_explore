@@ -1,0 +1,12 @@
+fragment NoteFullDetails on Note {
+    id
+    title
+    id
+    creationDate
+}
+
+query NotesDetails {
+    allNotes {
+        ...NoteFullDetails
+    }
+}
