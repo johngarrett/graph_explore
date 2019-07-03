@@ -1,0 +1,27 @@
+fragment ThreadFullDetails on Thread {
+	created
+	members
+	primaryColor
+	secondaryColor
+	id
+	title
+	notes
+}
+
+query ThreadsDetails {
+    allThreads {
+        ...ThreadFullDetails
+    }
+}
+
+mutation CreateThread($created: DateTime!, $members: [User!]!, $primaryColor: String!, $secondaryColor: String!, $title: String!) {
+	createThread(created: $created, members: $members, primaryColor: $primaryColor, secondaryColor: $secondaryColor, title: $title) {
+		id
+	}
+}
+
+mutation UpdateThread($members: [User!]!, $primaryColor: String!, $secondaryColor: String!, $title: String!) {
+  updateThread(members: $members, primaryColor: $primaryColor, secondaryColor: $secondaryColor, title: $title) {
+		id 
+	}
+}

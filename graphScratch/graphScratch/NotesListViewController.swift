@@ -3,7 +3,7 @@ import UIKit
 class NotesListViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     private var notes = [NoteFullDetails]()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         reload { [weak self] in
@@ -15,7 +15,7 @@ class NotesListViewController: UIViewController {
             self?.collectionView.reloadData()
         }
     }
-    
+
     func reload(_ completion: @escaping () -> Void) {
         print("Downloading notes")
         GraphAPI.queryAllNotes { [weak self] result in
@@ -40,7 +40,7 @@ extension NotesListViewController: UICollectionViewDelegate, UICollectionViewDat
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return notes.count
     }
-    
+
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "noteCell", for: indexPath) as! NoteCell
         cell.loadValues(forNote: notes[indexPath.item])

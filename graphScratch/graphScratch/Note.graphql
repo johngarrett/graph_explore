@@ -1,9 +1,10 @@
 fragment NoteFullDetails on Note {
-    id
     title
     body
     id
-    creationDate
+    created
+    edited
+    thread
 }
 
 query NotesDetails {
@@ -13,14 +14,14 @@ query NotesDetails {
 }
 
 
-mutation CreateNote($title: String!, $body: String!, $creationDate: DateTime!) {
-    createNote(title: $title, body: $body, creationDate: $creationDate) {
+mutation CreateNote($title: String!, $body: String!, $created: DateTime!, $thread: Thread) {
+    createNote(title: $title, body: $body, created: $created, thread: $thread) {
         id
     }
 }
 
-mutation UpdateNote($id: ID!, $title: String!, $body: String!, $creationDate: DateTime!) {
-    updateNote(id: $id, title: $title, body: $body, creationDate: $creationDate) {
+mutation UpdateNote($id: ID!, $title: String!, $body: String!, $edited: DateTime, $thread: Thread) {
+    updateNote(id: $id, title: $title, body: $body, edited: $edited, thread: $thread) {
         id
     }
 }

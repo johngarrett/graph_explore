@@ -1,0 +1,23 @@
+fragment UserFullDetails on User {
+	firstName
+	lastName
+	displayName
+	id
+	created
+	threads
+	phoneNumber
+	lastSession
+}
+
+query UserDetails {
+	allUsers {
+		...UserFullDetails
+	}
+}
+
+mutation CreateUser($firstName: String, $lastName: String, $displayName: String, $created: DateTime!, $phoneNumber: String) {
+	createUser(firstName: $firstName, lastName: $lastName, displayName: $displayName, created: $created, phoneNumber: String) {
+		id 
+	}
+}
+

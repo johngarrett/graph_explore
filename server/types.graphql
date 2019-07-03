@@ -4,7 +4,7 @@ type Note @model {
   title: String!
   id: ID! @isUnique
   created: DateTime! @migrationValue(value: "2019-07-01T18:22:43+0000")
-  edited: DateTime! @migrationValue(value: "2019-07-01T18:22:43+0000")
+  edited: DateTime
   thread: Thread @relation(name: "ThreadNotes")
 #see relations: https://www.graph.cool/docs/reference/database/data-modelling-eiroozae8u#relations
 }
