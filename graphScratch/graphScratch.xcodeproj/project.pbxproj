@@ -107,12 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0447880222BA636900A56D9D /* Build configuration list for PBXNativeTarget "graphScratch" */;
 			buildPhases = (
-				045357B922BA66C20098830E /* Generate Apollo GraphQL API */,
 				4868495A729368C5673744F9 /* [CP] Check Pods Manifest.lock */,
-				044787EC22BA636900A56D9D /* Sources */,
 				044787ED22BA636900A56D9D /* Frameworks */,
+				045357B922BA66C20098830E /* Generate Apollo GraphQL API */,
 				044787EE22BA636900A56D9D /* Resources */,
 				DFBB2878C0F5B06AAC32EE00 /* [CP] Embed Pods Frameworks */,
+				044787EC22BA636900A56D9D /* Sources */,
 			);
 			buildRules = (
 			);
